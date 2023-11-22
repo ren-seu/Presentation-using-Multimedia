@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head>
+    <title>Sound Card</title>
+</head>
+<style>
+    body {
+    background-color: lightskyblue;
+}
+
+.head {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "YouTube Sans", "Roboto", sans-serif;
+    text-shadow: 2px 2px rgba(5, 5, 173, 0.658);
+    color: white;
+    background-color: rgba(7, 7, 245, 0.658);
+    border: solid 5px rgba(5, 5, 173, 0.658);
+    border-bottom: none;
+    padding: 10px;
+}
+
+.vid {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    word-spacing: 3px;
+    line-height: 20px;
+    text-align: justify;
+    background-color: rgba(4, 4, 139, 0.658);
+    border: solid 5px rgba(5, 5, 173, 0.658);
+    border-top: none;
+    color: white;
+    padding: 10px;
+}
+
+.source {
+    background-color: transparent;
+    border: solid 3px rgb(5, 5, 173);
+    border-radius: 2px;
+    height: 40px;
+    width: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', serif;
+    color: rgb(5, 5, 173);
+    text-shadow: 2px 2px 1px rgba(7, 7, 218, 0.658);
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+}
+
+.source:hover {
+    background-color: rgba(5, 5, 173, 0.658);
+    color: white;
+}
+</style>
+<body>
+    <div class="vid">
+        <iframe width="80%" height="405.994px" src="https://www.youtube.com/embed/SFBvvlebSmw" title="Do you Need a Sound Card?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="image">
+        <img src="https://o.remove.bg/downloads/90ba5f07-5350-49d5-a509-8287a4138d6e/image-removebg-preview.png" alt="Speaker Image" height="200px" width="200px">
+    </div>
+
+    <div class="head">
+        <h1>What is a Sound Card?</h1>
+    </div>
+    
+    <div class="text">
+        <p>
+            A sound card is a computer component responsible for generating and recording audio. It enables users to connect analog speakers, headphones and microphones to their computer. Most modern computers have a built-in sound card in the motherboard.
+            Generating audio on computers is challenging because sound is fundamentally analog, while computers are digital devices. Moreover, the human ear is incredibly sensitive to even the slightest changes in sound. The sound card's primary function is to convert digital signals into analog output for speakers and headphones. It also converts signals from microphones to digital input.
+            A sound card operates through a digital-analog-converter (DAC) and an analog-digital-converter (ADC) and uses dedicated chips to lessen the CPU load. A preamplifier (preamp) boosts signal levels and controls volume. It may also be able to perform audio processing, such as audio equalization.
+            Sound cards used to be expansion cards for early computers, often with ISA or PCI slots. Newer cards use PCIe. However, as audio recording and playback became ubiquitous, and the cost of components decreased, it became common to incorporate basic sound card functionality into the motherboard. Although most computers no longer have physical sound cards, the term "sound card" still refers to the chips and functionality that provide audio output.
+            how an analog-to-digital converter works
+        </p>
+    </div>
+    <br>
+    <div>
+        <a href="https://www.techtarget.com/whatis/definition/sound-card#:~:text=A%20sound%20card%20is%20a,sound%20card%20in%20the%20motherboard." target="_blank">
+            <button class="source">Source</button>
+        </a>
+    </div>
+</body>
+</html>
